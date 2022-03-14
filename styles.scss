@@ -1,0 +1,29 @@
+@import "variables";
+@import "base";
+@import "navigation";
+@import "modules/media";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+$myFont: Roboto sans-serif;
+$myColor: #E65C43;
+$background: #022933;
+$text-color: white;
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.0rem;
+    color: $myColor;
+    background-color:  $myColor;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: $myColor;
+
+}

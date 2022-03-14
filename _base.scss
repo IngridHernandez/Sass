@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.0rem;
+    color: $myColor;
+    background-color:  $myColor;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: $myColor;
+
+}
+
+.figure {
+    width: 400px;
+    height: 190px;
+    background:url('../images/logo.png') no-repeat 0 50px;
+    float: left;
+    display: block;
+    margin: 0;
+}
+nav {
+    width: 540px;
+    height: 190px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 95px;
+}
+nav ul li {
+    display: inline;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: $mycolor;
+}
+nav ul li a:hover {
+    color: #FFF;
+}
